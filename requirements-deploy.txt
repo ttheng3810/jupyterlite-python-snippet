@@ -3,4 +3,4 @@ jupyterlab-tour
 jupyterlab-night
 jupyterlite-core
 jupyterlite-pyodide-kernel
-jupyterlite_xeus
+jupyterlite-xeus
