@@ -1,1 +1,4 @@
 __pycache__
+venv/
+.jupyterlite.doit.db
+.git

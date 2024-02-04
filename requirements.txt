@@ -1,2 +1,3 @@
 jupyterlab-tour
 jupyterlab-night
+jupyterlite-pyodide-kernel
