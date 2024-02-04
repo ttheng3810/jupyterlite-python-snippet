@@ -10,10 +10,11 @@ source ~/.bashrc
 # activate the environment and install a new version of Python
 micromamba activate
 micromamba install python=3.12 -c conda-forge -y
+micromamba install xeus-python -c conda-forge -y
 
 # install the dependencies
 python3 -m pip install -r requirements-deploy.txt
 
 # build the JupyterLite site
 jupyter lite --version
-jupyter lite build --output-dir dist --debug
+jupyter lite build --XeusAddon.environment_file=environment.yaml --output-dir dist --debug
