@@ -16,4 +16,4 @@ python3 -m pip install -r requirements-deploy.txt
 
 # build the JupyterLite site
 jupyter lite --version
-jupyter lite build --contents content --output-dir dist --debug
+jupyter lite build --output-dir dist --debug
